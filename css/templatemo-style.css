@@ -157,11 +157,16 @@ p {
     padding: 80px 0;
 }
 
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+.navbar-inverse .navbar-toggle:focus {
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover {
 	background-color: #33c1cf;
 }
 
 .navbar-inverse .navbar-toggle {
+	background-color: transparent;
 	border: none;
 }
 
